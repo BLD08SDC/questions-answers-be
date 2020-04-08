@@ -35,6 +35,11 @@ app.post('/', (req, res) => {
 
 });
 
+// Mark Answer as Helpful
+app.put('/', (req, res) => {
+
+});
+
 app.listen(PORT, () => {
     console.log(`Listening on port ${PORT}`);
 });
