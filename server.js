@@ -30,6 +30,11 @@ app.get('/answers', (req, res) => {
     
 });
 
+// Add an Answer
+app.post('/', (req, res) => {
+
+});
+
 app.listen(PORT, () => {
     console.log(`Listening on port ${PORT}`);
 });
