@@ -25,6 +25,11 @@ app.put('/', (req, res) => {
 
 });
 
+// List Answers
+app.get('/answers', (req, res) => {
+    
+});
+
 app.listen(PORT, () => {
     console.log(`Listening on port ${PORT}`);
 });
