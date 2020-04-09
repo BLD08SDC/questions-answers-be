@@ -1,0 +1,24 @@
+{
+  "name": "questions-answers-be",
+  "version": "1.0.0",
+  "description": "E-commerce Retail Portal: Tiger-Eye, Back-End, Services, Questions &amp; Answers Module",
+  "main": "faker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BLD08SDC/questions-answers-be.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BLD08SDC/questions-answers-be/issues"
+  },
+  "homepage": "https://github.com/BLD08SDC/questions-answers-be#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "faker": "^4.1.0"
+  }
+}
